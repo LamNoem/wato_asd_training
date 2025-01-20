@@ -1,0 +1,21 @@
+[0.000000] (-) TimerEvent: {}
+[0.000228] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.000283] (-) JobUnselected: {'identifier': 'aggregator'}
+[0.000315] (-) JobUnselected: {'identifier': 'bringup_robot'}
+[0.000341] (-) JobUnselected: {'identifier': 'control'}
+[0.000365] (-) JobUnselected: {'identifier': 'gazebo'}
+[0.000390] (-) JobUnselected: {'identifier': 'map_memory'}
+[0.000416] (-) JobUnselected: {'identifier': 'odometry_spoof'}
+[0.000435] (-) JobUnselected: {'identifier': 'planner'}
+[0.000459] (-) JobUnselected: {'identifier': 'producer'}
+[0.000478] (-) JobUnselected: {'identifier': 'producer'}
+[0.000495] (-) JobUnselected: {'identifier': 'sample_msgs'}
+[0.000573] (-) JobUnselected: {'identifier': 'sample_msgs'}
+[0.000608] (-) JobUnselected: {'identifier': 'transformer'}
+[0.000630] (-) JobUnselected: {'identifier': 'transformer'}
+[0.000662] (costmap) JobQueued: {'identifier': 'costmap', 'dependencies': OrderedDict()}
+[0.002615] (costmap) JobStarted: {'identifier': 'costmap'}
+[0.062695] (costmap) JobProgress: {'identifier': 'costmap', 'progress': 'cmake'}
+[0.068423] (costmap) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 59, in build\n    rc = await extension.build(\n         ^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 173, in _reconfigure\n    raise RuntimeError("Could not find \'cmake\' executable")\nRuntimeError: Could not find \'cmake\' executable\n'}
+[0.070907] (costmap) JobEnded: {'identifier': 'costmap', 'rc': 1}
+[0.079922] (-) EventReactorShutdown: {}
